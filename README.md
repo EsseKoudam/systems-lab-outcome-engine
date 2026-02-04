@@ -1,4 +1,4 @@
-The Outcome Engine
+## The Outcome Engine
 
 Constraint, Choice, and Income Dynamics in Human Systems
 
@@ -10,41 +10,41 @@ Rather than asking “Can income be predicted?”, this project asks:
 
 Where does effort compound—and where does the system cap outcomes regardless of intent?
 
-Systems Framing
+## Systems Framing
 
 Variables are treated according to their role within the system:
 
-	•	Constraints: hard or slow to change (age, education access)
+- Constraints: hard or slow to change (age, education access)
 	
-	•	Leverage variables: adjustable within bounds (hours worked, capital gains)
+- Leverage variables: adjustable within bounds (hours worked, capital gains)
 	
-	•	Gatekeepers: unlock or block entire outcome regions (occupation, education thresholds)
+-	Gatekeepers: unlock or block entire outcome regions (occupation, education thresholds)
 
 The same action can produce different results depending on starting conditions.
 
-Methodology
+## Methodology
 
-	•	System ingestion and data normalization
+- System ingestion and data normalization
 	
-	•	Exploratory analysis by constraint category
+- Exploratory analysis by constraint category
 	
-	•	Regime-based modeling
+- Regime-based modeling
 	
-	•	Interpretable classification models
+- Interpretable classification models
 	
-	•	SQL replication of core insights
+- SQL replication of core insights
 
-Limitations
+## Limitations
 
 This analysis is descriptive, not causal.
 It makes no claims about individual merit or responsibility.
 It observes how systems behave under constraint.
 
-Artifacts
+## Artifacts
 
-	•	Jupyter notebooks documenting each analytical stage
+- Jupyter notebooks documenting each analytical stage
 	
-	•	SQL scripts reproducing core findings
+- SQL scripts reproducing core findings
 	
-	•	Visualizations illustrating system dynamics
+- Visualizations illustrating system dynamics
 
