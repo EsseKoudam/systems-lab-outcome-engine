@@ -1,51 +1,39 @@
-THE OUTCOME ENGINE
+The Outcome Engine
 
+Constraint, Choice, and Income Dynamics in Human Systems
 
-A Systems Lab flagship project
+This project analyzes income as the emergent output of a human system rather than a standalone target to be predicted.
 
-This project models how demographic, educational, and economic constraints interact with individual choices to shape income outcomes.
+Using public census-style data, the analysis examines how structural constraints, leverage variables, and regime-dependent dynamics interact to shape economic outcomes.
 
-Using public census-style data, I built an end-to-end analytical pipeline:
+Rather than asking “Can income be predicted?”, this project asks:
 
-  Data ingestion and cleaning
+Where does effort compound—and where does the system cap outcomes regardless of intent?
 
-  Exploratory data analysis
+Systems Framing
 
-  Feature engineering
+Variables are treated according to their role within the system:
+	•	Constraints: hard or slow to change (age, education access)
+	•	Leverage variables: adjustable within bounds (hours worked, capital gains)
+	•	Gatekeepers: unlock or block entire outcome regions (occupation, education thresholds)
 
-  Interpretable modeling
+The same action can produce different results depending on starting conditions.
 
-  Explainability and bias-aware evaluation
+Methodology
+	•	System ingestion and data normalization
+	•	Exploratory analysis by constraint category
+	•	Regime-based modeling
+	•	Interpretable classification models
+	•	SQL replication of core insights
 
-  SQL replication of core insights
+Limitations
 
+This analysis is descriptive, not causal.
+It makes no claims about individual merit or responsibility.
+It observes how systems behave under constraint.
 
-KEY RESULTS
+Artifacts
+	•	Jupyter notebooks documenting each analytical stage
+	•	SQL scripts reproducing core findings
+	•	Visualizations illustrating system dynamics
 
-  Logistic Regression ROC AUC: 0.86 (approximate, varies by split)
-
-  Strongest predictors of earning >50K:
-
-  Education level
-
-  Capital gains
-
-  Hours worked per week
-
-  Occupation category
-
-
-WHY THIS MATTERS
-
-Rather than treating income as purely random or purely merit-based, this project frames outcomes as system-level interactions between structure and agency.
-
-The goal is not moral judgment, but understanding.
-
-
-ARTIFACTS
-
-  Notebooks: Cleaning → EDA → Modeling → Explainability
-
-  SQL scripts reproducing key insights
-
-  Figures demonstrating distributions and feature effects
