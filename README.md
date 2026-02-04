@@ -13,17 +13,25 @@ Where does effort compound—and where does the system cap outcomes regardless o
 Systems Framing
 
 Variables are treated according to their role within the system:
+
 	•	Constraints: hard or slow to change (age, education access)
+	
 	•	Leverage variables: adjustable within bounds (hours worked, capital gains)
+	
 	•	Gatekeepers: unlock or block entire outcome regions (occupation, education thresholds)
 
 The same action can produce different results depending on starting conditions.
 
 Methodology
+
 	•	System ingestion and data normalization
+	
 	•	Exploratory analysis by constraint category
+	
 	•	Regime-based modeling
+	
 	•	Interpretable classification models
+	
 	•	SQL replication of core insights
 
 Limitations
@@ -33,7 +41,10 @@ It makes no claims about individual merit or responsibility.
 It observes how systems behave under constraint.
 
 Artifacts
+
 	•	Jupyter notebooks documenting each analytical stage
+	
 	•	SQL scripts reproducing core findings
+	
 	•	Visualizations illustrating system dynamics
 
